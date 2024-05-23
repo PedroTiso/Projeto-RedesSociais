@@ -14,8 +14,7 @@ public class Main {
         Set<RedeSocial> redeSociais = new HashSet<>();
         try{
             facebook = new Facebook("12345", -30);
-            googlePlus = new GooglePlus("arroz", 400);
-
+            googlePlus = new GooglePlus("ar
             redeSociais.add(facebook);
             redeSociais.add(googlePlus);
 
